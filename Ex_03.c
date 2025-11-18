@@ -17,10 +17,10 @@ struct Cadastro {
     char nome[100];
     struct Endereco end;
     float salario;
-    char identidade[30];
-    char cpf[30];
-    char estadoCivil[30];
-    char telefone[30];
+    char identidade[11];
+    char cpf[14];
+    char estadoCivil[8];
+    char telefone[14];
     int idade;
     char sexo;
 };
